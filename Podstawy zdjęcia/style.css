@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    color: white;
+    /* Tło jedno lite */
+    /* background-color: lightblue; */
+    /* tło tonalne */
+    /* background:linear-gradient(to bottom, white, silver); */
+    /* Takie spirale */
+    /* background:radial-gradient(green, white, green, white, green); */
+    /* Tło z pliku */
+    background-image: url("images\\bg2.jpg");
+    /* Powtarzanie tła */
+    background-repeat:no-repeat;
+    /* rozmiar tła, cover = ustawia sie na rozmiar urzadania*/
+    /* pozycja tła */
+    /* background-position: center top; */
+    background-size: cover;
+    /* blokowania tła */
+    background-attachment: fixed;
+    /* środkowanie zdjęć i tekstu */
+    text-align: center;
+    
+    
+}
+
+.z1{
+    /* szerokosc */
+    width: 30%;
+    /* height: 200px; */
+    /* margines zewnetrzny */
+    /* margin: 100px; */
+    margin: 30px;
+    /* Ramka obrazka ciągła */
+    /* border: 2px solid black; */
+    /* przerywana  */
+    border: 2px dashed black;
+    /* kropkowana */
+    /* border: 2px dotted black; */
+    /* background-color: white; */
+    /*  margines zewnetrzny */
+    /* padding: 1px; */
+    /* zaokrąglenie rogów */
+    border-radius: 50%;
+
+
+
+    
+
+
+}
