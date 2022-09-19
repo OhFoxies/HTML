@@ -1,0 +1,110 @@
+#text1{
+    color: red;
+    font-family: sans-serif;
+}
+
+#text2_format1{
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+#text2_format2{
+    font-weight: bold;
+    text-decoration: underline overline;
+    color: goldenrod;
+    font-size: 35px;
+}
+
+#text3{
+    font-style: italic;
+    color: limegreen;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.field{
+    color:blue;
+    letter-spacing: 8px;
+}
+
+.languages{
+    font-size: 80px;
+    font-family: sans-serif;
+    color: green;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+#green{
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+}
+#yellow{
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+}
+#auqa{
+    color: aqua;
+    font-style: italic;
+    font-weight: bold;
+}
+#red{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+#lime{
+    color: lime;
+    font-style: italic;
+    font-weight: bold;
+}
+#blue{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    font-weight: bold;
+}
+#purple{
+    color: purple;
+    font-style: italic;
+    font-weight: bold;
+}
+#gold{
+    color: goldenrod;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#pink{
+    color: pink;
+    font-style: italic;
+    font-weight: bold;
+}
+#gray{
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+}
+#magenta{
+    color: magenta;
+    font-style: italic;
+    font-weight: bold;
+}
+#beige{
+    color: beige;
+    font-style: italic;
+    font-weight: bold;
+}
+#white{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+#navy{
+    color: navy;
+    font-style: italic;
+    font-weight: bold;
+}
+
