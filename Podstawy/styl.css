@@ -1,0 +1,50 @@
+/* test 1 */
+/* selektor:znacznik(nic), klasa(.), id (#)
+atrybut: wartosc
+
+selektor{
+    atrybut: wlasnosc;
+}
+*/
+
+p{
+    color: black;
+    font-size: 100px;
+}
+
+#Tekst1{
+    color: yellow;
+}
+
+.tekst2{
+    color: blue;
+}
+.WziumClass{
+    /* Czcionka sans-serif - 
+    uzycie domyslnej czcionki uzytkownika */
+    font-family:Comic Sans MS;
+    /* Pogrubienie */
+    font-weight: 999;
+    /* inne */
+    font-style: italic;
+    color: blue;
+    text-decoration: overline underline line-through;
+    font-size: 150px;
+
+}
+
+.WziumKolorowy{
+    color:rgb(125, 89, 255);
+    font-size: 120px;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: rgb(0, 0, 0);
+    font-stretch: expanded;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: Normal;
+    font-family: sans-serif; 
+    outline-style: dotted; 
+}
