@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+.link1{
+    /* Usuniecie podkreslania (zalecane). Oraz tworzenie napisu wygladajacego jak przycisk*/
+    text-decoration: none;
+    background-color: red;
+    font-family: sans-serif;
+    border: 2px solid black;
+    /* Poszerzenie "przycisku" */
+    width: 300px;
+    padding: 20px;
+    /* Używajac funkcji display, nasz napis staje sie kontenerem - mozemy go edytowac */
+    display: block;
+    /* Środkowanie elementu w KONTENERZE*/
+    text-align: center;
+    /* Środkowanie elementu na stronie */
+    margin: auto;
+    /* czas trwania animacji */
+    transition: 0.5s;
+
+}
+/* tworzenie animacji po najechaniu kursorem na obiekt */
+.link1:hover{
+    background-color: black;
+}
+
+/* formatowanie zdjecia */
+.image1{
+    width: 20%;
+    transition: .5s;
+}
+
+/* Animacja po najechaniu na zdjecie */
+.image1:hover{
+    width: 10%;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.link2{
+    text-decoration: none;
+    color:white;
+    background-color: orange;
+    width: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: auto;
+    /* block - dobre dla urządzeń mobilnych, ukladanie elementów jeden pod drugim */
+    /* inline-block - wyswietlanie w jednej lini , nie zalecane dla urzadzen moblinych */
+    display: inline-block;
+    transition: .5s;
+
+}
+
+.link2:hover{
+    border-left: 10px solid black;
+}
