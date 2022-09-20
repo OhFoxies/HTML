@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+/* obramowanie tabeli */
+table{
+    margin: auto;
+    border: 1px solid black;
+    /* odstepy miedzy komorkami */
+    /* border-spacing: 50px; */
+    /* Usuniecie odstepów */
+    border-collapse: collapse; 
+}
+
+/* obramowanie komórek */
+td{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.text1{
+    /* centrowanie tekstu w poziomie */
+    text-align: left;
+    /* centrowanie w pionie */
+    vertical-align: top;
+    /* domyslny styl display dla td table-cell */
+    background-image: url("images/window.jpg");
+    background-position: center, center;
+    background-size: cover;
+}
+
+.text2{
+    vertical-align: middle;
+}
+
+.text3{
+    vertical-align: bottom;
+}
