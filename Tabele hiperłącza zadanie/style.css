@@ -1,0 +1,75 @@
+
+table{
+    border-spacing: 10px;
+    margin: auto;
+}
+td{
+    border: 1px solid black;
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#w1{
+    background: linear-gradient(to bottom, red, darkred);
+    text-align: center;
+    vertical-align: middle;
+    background-color: red;
+    font-family: sans-serif;
+    color: white;
+}
+
+#w2{
+    background-color: lime;
+    text-align: left;
+    vertical-align: top;
+}
+
+.image{
+    margin: 2px;
+    border: 2px dotted black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+#w3{
+    background-color: aqua;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+#w4{
+    background-color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: n;
+}
+
+#w5{
+    background-color: thistle;
+    text-align: right;
+    vertical-align: top;
+}
+
+#w6{
+    background-color: goldenrod;
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#w7{
+    background-color: lightgreen;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.link{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+
+}
