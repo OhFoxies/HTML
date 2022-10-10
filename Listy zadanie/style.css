@@ -1,0 +1,15 @@
+#list2{
+    list-style-type: lower-alpha;
+}
+
+#list3 {
+    list-style-type: square;
+}
+
+#list4 {
+    list-style-type: circle;
+}
+
+#list5 {
+    list-style-image: url("images/a.png");
+}

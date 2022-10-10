@@ -1,0 +1,15 @@
+#lista1 {
+    /* Styl numerowania listy */
+    list-style-type: upper-alpha;
+}
+
+#lista2 {
+    /* Styl punktowania */
+    /* list-style-type: square; */
+    /* Używanie obrazka jako punktu */
+    list-style-image: url("images/icon2.png");
+}
+
+.p1 {
+    list-style-type: square;
+}
