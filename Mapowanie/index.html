@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapowanie</title>
+</head>
+<body>
+    <!-- Wstawienie obrazka z włączeniem mapowania, # jest bardzo ważny w nazwie atrybutu usemap-->
+    <img src="images/polska.png" usemap="#map" />
+    <!-- Aby zobaczyć mapy na stronie nacisnij TAB -->
+    <!-- Utworzenie mapowania nazwa jest ważna ponieważ odwołuję się do zdjęcia. -->
+    <map name="map">
+        <!--Prostokąt, coords="x1, y1, x2, y2" x1 i y1 lewy górny róg, x2 i y2 prawy dolny róg-->
+        <!-- # w linku oznacza pozostanie na tej samej stronie. -->
+        <!-- <area shape="rect" coords="300, 200, 200, 120" href="#" target="blank_"> -->
+        <!-- <area shape="rect" coords="20, 200, 100, 300" href="#" target="blank_"> -->
+        <!-- Koło, x, y, r -->
+        <!-- <area shape="circle" coords="400, 390, 35" href="#" target="blank_"> -->
+        <!-- <area shape="circle" coords="315, 310, 50" href="#" target="blank_"> -->
+        <!-- Wielokąt, x1, y1, x2, y2, x3, y3 itd. Pierwszy punkt łączy się z ostatnim -->
+        <area shape="poly" coords="" href="#" target="_blank">
+    </map>
+</body>
+</html>
