@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+}
+form {
+    width: 60%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color:teal;
+}
+
+
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+td{
+    border: 1px solid black;
+    width: 500;
+    height: 100px;
+    padding: 5px;
+}
+
+.suw {
+    border: 0;
+    width: auto;
+    height: auto;
+    padding: auto; 
+}
+
+.point {
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.text {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.suwak {
+    margin: auto;
+    width: 400px;
+}
+
+input[type="range"]{
+    width: 400px;
+}
+
+input[type="range"]{
+    margin-top: 10px;
+    
+}
