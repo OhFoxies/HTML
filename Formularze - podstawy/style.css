@@ -1,0 +1,44 @@
+input[type=text], input[type="button"]{
+    width: 150px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: silver;
+    border-radius: 10px;
+    text-align: center;
+    /* Magiczna sztuczka 
+    border: 0; */
+}
+
+form {
+    /* fit-content - dostosowanie wielkości do zawartosci w srodku */
+    width: fit-content;
+    padding: 20px;
+    border: 1px dashed orange;
+    margin: auto;
+    text-align: center;
+}
+
+
+input[type="range"]{
+    width: 175px;
+}
+
+table {
+    margin: auto;
+    width: 200px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 100px;
+    height: 100px;
+}
+
+select{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+option{
+    background-color: green;
+}

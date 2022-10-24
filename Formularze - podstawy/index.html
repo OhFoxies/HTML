@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+</head>
+<body>
+    <!--Utworzenie forumlarza -->
+    <form>
+        <!-- Input box (miejsce do wpisania danych wejsciowych)-->
+        <!-- type definiuje typ input boxa, jak chcesz je poznać to zobacz w internecie-->
+        <!-- placeholder - text który wyświetla się domyślnie, znika po rozpoczencu pisania. -->
+        <input type="text" placeholder="Wpisz coś" />
+        <!-- Tekst w pudełku który nie zniknie, trzeba go ręcznie usunąć żeby rozpoczać pisanie -->
+        <input type="text" value="Wpisz coś" />
+        <!-- Maxymalna ilość znaków (domyślna) to 150, możesz to zmienić używając znacznika size -->
+        <!-- Powinieneś robić to css -->
+        <input type="text" value="Wpisz coś" size="69"/>
+        <!-- Możliwość wpisania tylko liczb, dodaje takie fajne strzałki  -->
+        <input type="number" />
+        <!-- Typ hasło (zastępuję to co piszemy takimi fajnymi kropkami)-->
+        <input type="password" />
+        <!-- batonik - przycisk -->
+        <input type="button" value="Wziumnij mnie"/>
+        <!-- przycisk typu submit używany do przesyłania danych -->
+        <input type="submit" />
+        <!-- Reset - wyczyść usunie wszystko co w formularzu (W polach tekstowych)-->
+        <input type="reset" />
+        <!-- Radio (nie że radio) wybór jednokrotnego wyboru, ważne żeby name był taki sam
+        w opcjach tego samego powiązanego wyboru, jeśli damy name inne to będziemy mogli 
+        zaznaczyć wiele opcji-->
+        <br />
+        <input type="radio" name="opcje" /> opcja 1 
+        <input type="radio" name="opcje" /> opcja 2 
+        <!-- Checked automatyczne zaznaczenie opcji -->
+        <input type="radio" name="opcje" checked="checked" /> opcja 3
+        <input type="radio" name="opcje" /> opcja 4 
+        <!-- Wybór kilku opcji typ checkbox -->
+        <br />
+        <input type="checkbox" /> opcja 1
+        <input type="checkbox" /> opcja 2
+        <input type="checkbox" /> opcja 3
+        <br />
+        <!-- Takie pole tekstowe co można rozciągaćsobie i pisać w nim też -->\
+        <!-- Rows ilość linijek, cols ilość liter w linjce-->
+        <br />
+        <textarea rows="30" cols="100">Wzium</textarea>
+        <br />
+        <br />
+        <br />
+        <!-- Lista rozwijana -->
+        <br />
+        <select>
+            <!-- Utworzenie opcji w liscie -->
+            <option>Opcja 1</option>
+            <option>Opcja 2</option>
+        </select>
+        <br />
+        <!-- Range to taki suwak do suwania możesz np wiek podać sobie -->
+        <input type="range" min="1" max=5 />
+        <br />
+        <br />
+        <table>
+            <tr>
+                <td colspan="5">
+                    <input type="range" min="1" max=5 />
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
