@@ -1,0 +1,77 @@
+/* znacznik domyślny */
+* {
+    margin: 0;
+    padding: 0;
+    /* Definiuje jak mają zachowywać się schematy, dzięki temu możńa zmieniać rozmiar */
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#d1 {
+    background-color: blue; 
+    width: 40%;
+    /* float tzn "przyklej się poprzedniego elemntu po lewej stronie"*/
+    float: left;
+    display: block;
+    position: relative;
+}
+
+#d2 {
+    background-color: chartreuse;
+    width: 30%;
+    float: left;
+}
+
+#d3 {
+    background-color: crimson;
+    width: 30%;
+    float: right;
+}
+
+.k1 {
+    background-color: orange;
+    width: 30%;
+    display: inline-block;
+
+}
+
+#d4 {
+    /* Pozycjonowanie w/g kontenera nadrzędnego */
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color: palegreen;
+    top: 10px;
+    left: 300px;
+    z-index: 999;
+}
+
+#d5 {
+    /* Pozycjonowanie w/g kontenera nadrzędnego */
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color: lightsalmon;
+    top: 20px;
+    left: 350px;
+}
+
+#d6 { 
+    position: fixed;
+    color: wheat;
+    height: 50px;
+    background-color: teal;
+    left: 0;
+    top: 50px;
+    height: 20px;
+    z-index: 234567;
+    width: 100%;
+    overflow: hidden;
+    color: black;
+    transform: .5s;
+    line-height: 20px;
+}
+
+#d6:hover {
+    height: 50px;
+    color: white
+}
