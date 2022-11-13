@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+</head>
+<body>
+    <form>
+        <h1>Odwołanie od kary</h1>
+        <br />
+        <br />
+        <table>
+            <tr>
+                <td>
+                    <h1 class="point">1. Twoje konto <br /> <span class='text'>Wpisz tutaj swój nick na serwerze lub twoje UUID użytkownika. </span><input type="text" placeholder="Wpisz swoją nazwe na serwerze" /></h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1 class="point">2. Szczegóły kary <br /> <span class='text'>Zaznacz i/lub przepisz w tym punkcie opowiednie informacje o swojej karze. </span> <br /><span class='text2'>Powód kary, przepisz tutaj to co jest napisane w powodzie kary</span><br /> <input type="text" placeholder="Powód kary" />
+                        <br /><br /> <span class='text2'>Typ kary (Zaznacz)</span> <br />
+                        <span class='text'><input type="radio" name="opcje" /> Wyciszenie
+                        <input type="radio" name="opcje" /> Ban </h1></span>
+                        <br /> <span class='text2'>Czas trwania kary</span>
+                        <table class="suwak">
+                            <tr>
+                                <td colspan="5" class="suw">
+                                    <input type="range" min="1" max="10" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="suw">1-3 dni</td>
+                                <td class="suw">3-7 dni</td>
+                                <td class="suw">7-14 dni</td>
+                                <td class="suw">14-30 dni</td>
+                                <td class="suw">30-? dni</td>
+                            </tr>
+                        </table>
+                </td>
+                <tr>
+                <td>
+                    <br /> <h1 class="point">3. Odwołanie <br /> <span class='text'>Opisz tutaj dowody swojej niewinności </span><br /><span class='text2'>Dlaczego powinniśmy skrócić lub cofnąć twoją kare? </span><br /><textarea rows="25" cols="60">Opisz się tutaj, pamiętaj o zachowaniu kultury</textarea>
+                    <br /><span class='text2'>Czy zapoznałeś się z regulaminem serwera? </span><br /><span class='text'><input type="radio" name="opcje" /> Tak
+                        <input type="radio" name="opcje" /> Nie </h1></span></h1>
+                </td>
+                </tr>
+            </tr>
+            <tr>
+                <td>
+                    <br /> <h1 class="point">4. Przesłanie <br /> <span class='text'>Już prawie koniec! </span><br /><span class='text2'>Czy wyrażasz zgodę na kontakt z administracją po przez twój adres email podłączony do tego konta? </span><br /><span class='text'><input type="radio" name="opcje" /> Tak
+                        <input type="radio" name="opcje" /> Nie </h1></span></h1>
+                        <br /><span class='text2'>Wysyłanie </span> <br/> <input type="submit" /><br />
+                </td>
+                </tr>
+            </tr>     
+        </table>
+    </form>
+</body>

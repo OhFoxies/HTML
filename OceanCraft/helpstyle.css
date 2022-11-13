@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  a {
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .logonav {
+    width: 160px;
+    height: 103px;
+    float: left;
+  }
+  
+  .logoimg{
+    width: 160px;
+    height: 103px;
+    margin: 0px;
+    padding: 0px 0px;
+  }
+  
+  .navbuttons {
+    display: block;
+    float: right;
+    padding: 40px 20px;
+  }
+  
+  .navbuttons :hover {
+    margin: 0px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 2px;
+    border-bottom: 1.5px solid rgb(0, 255, 255);
+  }
+  table{
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    width: 1000px;
+}
+
+.Tittle {
+  margin: 4px;
+  font-size: 20px;
+}
+
+.Date {
+  float: right;
+  margin: 4px;
+  font-size: 20px;
+}
+
+.top {
+  background-color: #cbcbcb;
+  color: #3f3f3f;
+  font-weight: 600;
+
+}
+
+.border {
+  color: lightseagreen;
+  font-size: 35px;
+  padding: 5px;
+  border: 1px black solid;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 10px;
+}
+
+.image {
+  width: 40%;
+  margin: 5px;
+  margin-bottom: 10px;
+
+}
+
+.Text {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  vertical-align: bottom;
+  margin: 4px;
+
+}
+
+.dc {
+    color:aqua;
+}

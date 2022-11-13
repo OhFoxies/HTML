@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  text-align: center;
+  background-image: url("images/bgblur.gif");
+  background-repeat:repeat-x;
+  background-position: top;
+  background-size: 100% 900px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+a {
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.logonav {
+  width: 160px;
+  height: 103px;
+  float: left;
+}
+
+.logoimg{
+  width: 160px;
+  height: 103px;
+  margin: 0px;
+  padding: 0px 0px;
+}
+
+.navbuttons {
+  display: block;
+  float: right;
+  padding: 40px 20px;
+}
+
+.navbuttons :hover {
+  margin: 0px;
+  background-color: rgb(64, 64, 64);
+  border-radius: 2px;
+  border-bottom: 1.5px solid rgb(0, 255, 255);
+}
+
+.movie {
+  margin-top: 40px;
+  border: solid 2px rgb(40, 40, 40);
+  width: 85%;
+  height: 780px;
+  padding: 10px ;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.join {
+  margin-left: 20%;
+  margin-right: 20%;
+  border: solid 2px rgb(40, 40, 40);
+  padding: 10px 10px 10px;
+  border-radius: 20px;
+  color:darkcyan;
+}
+
+.join2 {
+  color: black;
+  font-weight: 100;
+}
+
+.join4 {
+  width: 40%;
+  padding: 5px;
+  border: solid 1px gray;
+}
+
+.fz1  {
+  width: 40%;
+  border: #111 1px solid;
+  border-radius: 10px;
+
+}
+
+.historia {
+  margin-left: 20%;
+  margin-right: 20%;
+  border: solid 2px rgb(40, 40, 40);
+  padding: 10px 10px 10px;
+  border-radius: 20px;
+  color:darkcyan;
+}
+
+.historiat {
+  color: black;
+  font-weight: 100;
+}

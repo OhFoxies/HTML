@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-image: url("images/adbg.png");
+    background-attachment: fixed;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  a {
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .logonav {
+    width: 160px;
+    height: 103px;
+    float: left;
+  }
+  
+  .logoimg{
+    width: 160px;
+    height: 103px;
+    margin: 0px;
+    padding: 0px 0px;
+  }
+  
+  .navbuttons {
+    display: block;
+    float: right;
+    padding: 40px 20px;
+  }
+  
+  .navbuttons :hover {
+    margin: 0px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 2px;
+    border-bottom: 1.5px solid rgb(0, 255, 255);
+  }
+
+  table{
+    margin: auto;
+    border-spacing: 50px; 
+    /* Usuniecie odstepów */
+}
+
+/* obramowanie komórek */
+td{
+    background-color: #111;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 210px;
+    height: 150px;
+}
+
+.Frieend {
+    text-align: center;
+    vertical-align: top;
+    margin: 10px;
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+}
+
+#func {
+    color: red;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#f {
+    color: Green;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#f2 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
