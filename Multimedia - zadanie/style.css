@@ -1,0 +1,79 @@
+html {
+    margin:0;
+    text-align: center;
+    background-color: #353535;
+}
+#wzium {
+    width: 100%;
+    height: 10vh;
+    line-height: 5vh;
+    font-size: 5vh;
+    font-family: Comic sans MS;
+    color: red;
+}
+
+#buttons {
+    display: inline-block;
+    width: fit-content;
+}
+
+.galery-button {
+    padding: 1vw;
+    color: #fff;
+    background-color: #1A7F64;
+    border-radius: 10px 10px 10px 10px;
+    width: 5vw;
+    height: 5vh;
+    margin: 5vh;
+    text-decoration: none;
+}
+
+
+.galery-button:hover {
+    padding: 1vw;
+    color: #fff;
+    background-color: #31dfb0;
+    border-radius: 10px 10px 10px 10px;
+    width: 5vw;
+    height: 5vh;
+    margin: 5vh;
+    text-decoration: none;
+}
+
+.videos3 {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+
+.videos3 video {
+    padding: 1vh;
+    margin: 1vw;
+    width: 20vw;
+    height: 25vh;
+    border: lightgreen solid 2px;
+    border-radius: 5px;
+}
+
+.videos3 iframe {
+    padding: 1vh;
+    margin: 1vw;
+    width: 25vw;
+    height: 30vh;
+    border: lightgreen solid 2px;
+    border-radius: 10px;
+}
+
+
+.previer {
+    overflow: scroll;
+    border: lightgreen solid 2px;
+    max-width: 20vw;
+    margin: auto
+}
+
+.previer iframe {
+    display: inline-block;
+    width: 10vw;
+    height: 25vh;
+}

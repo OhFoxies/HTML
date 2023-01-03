@@ -1,0 +1,48 @@
+html {
+    margin:0;
+    text-align: center;
+    background-color: #353535;
+}
+#wzium {
+    width: 100%;
+    height: 10vh;
+    line-height: 5vh;
+    font-size: 5vh;
+    font-family: Comic sans MS;
+    color: red;
+}
+
+.videos {
+    border-radius: 0.5vw;
+    border: lightgreen solid 0.15vw;
+    width: fit-content;
+    margin: auto;
+}
+
+.videos iframe {
+    margin: 1.3vh;    
+    border: red solid 0.15vw;
+    width: 43vw;
+    height: 40vw;
+    border-radius: 10px 0px 10px 0;
+}
+
+
+.previer {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 60vw;
+    max-height: 25vh;
+    margin: auto;
+    border: lightgreen solid 0.15vw;
+    border-radius: 0.5vw;
+}
+
+.d {
+    margin: 0.3vw;
+    width: 13vw;
+    height: 10vw;
+    border: red solid 0.15vw;
+    border-radius: 5px 0px 5px 0;
+}
