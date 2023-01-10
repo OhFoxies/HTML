@@ -1,0 +1,60 @@
+* {
+    text-align: center;
+    margin: 0;
+}
+
+.space {
+    width: 100%;
+    height: 25vh;
+}
+
+
+.images-box {
+    margin:auto;
+    margin-bottom: 20vw;
+    width: 25vw;
+    height: 25vw;
+    background-color: red;
+    /* obrót */
+    /* transform: rotate(-30deg); */
+    /* transform: perspective(25vw) rotateY(30deg); */
+    /* scalowanie */
+    /* transform: scale(1); */
+    /* transform: scaleX(3); */
+    /* transform: scaleX(3) scaleY(3); */
+    /* Przesunięcie */
+    /* transform: translateX(300px) translateY(300); */
+    /* pochylenie */
+    /* transform: skewY(20deg); */
+    transition: 2s;
+
+}
+
+.images-box:hover{
+    transform: perspective(300px) rotateY(180deg);
+    background-color: green;
+}
+
+.images-box2 {
+    margin: auto;
+    width: 30vw;
+    height: fit-content;
+    background-color: black;
+    padding: 10px;
+    transition: 1s;
+}
+
+
+#image1 {
+    width: 100%;
+    transition: 1s;
+    opacity: 0;
+}
+
+.images-box2:hover {
+    transform: perspective(300px) rotateY(180deg);
+}
+
+.images-box2:hover #image1{
+    opacity: 1;
+}

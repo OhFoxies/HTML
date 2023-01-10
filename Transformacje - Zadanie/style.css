@@ -1,0 +1,73 @@
+
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(53, 53, 53);
+}
+
+#title {
+    margin: 2vw;
+    line-height: 2vw;
+    font-size: 30px;
+    color: red;
+    font-family: Comics sans MS;
+}
+.nav {
+    position: relative;
+}
+#nav-img1 {
+    margin-left: 27.05vw;
+}
+.nav img {
+    float: left;
+    width: 13vw;
+    height: 13vw;
+    border: white 0.3vw solid;
+    border-radius: 1vw;
+    margin: 1vw; 
+}
+
+#space {
+    width: 100%;
+    height: 35vh;
+}
+
+.nav img:hover{
+    transform: rotateY(180deg);
+    transition: 2s;
+}
+
+#nav-img1:hover ~ .display #display-img1{
+   opacity: 1;
+   transition: .5s;
+}
+
+
+#nav-img2:hover ~ .display #display-img2{
+    opacity: 1;
+    transition: .5s;
+ }
+
+ #nav-img3:hover ~ .display #display-img3{
+    opacity: 1;
+    transition: .5s;
+ }
+
+.display {
+    position: relative;
+    margin: auto;
+    border: white 0.3vw solid;
+    border-radius: 0.5vw;
+    width: 30vw;
+    height: 30vw;
+ }
+
+.display img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30vw;
+    height: 30vw;
+    opacity: 0;
+}
