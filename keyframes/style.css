@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+.box{
+    width: 50vw;
+    height: 50vw;
+    background-color: red;
+    /* nazwa animacji */
+    animation-name: animacja1;
+
+    /* Czas animacji */
+    animation-duration: 5s;
+    
+    /* dynamika animacji
+    - linear - stała szybkość
+    - ease-ease - szybciej na początku 
+    - ease-in - wolniej na początku 
+    - ease-out - wolniej na końcu
+    - ease-in-out  - wolniej na początku i na końcu 
+    animation-timing-function: linear; */
+
+    /* kierunek animacjci
+    - normal - od początku do końca
+    - reverse - od końca do początku
+    - alternate - od początku do końca i powtarzanie w przeciwnym kierunku
+    - reverse-alternate - od końca do początku i powtarzanie w przeciwnym kierunku */
+    animation-direction:alternate;
+    /* liczba powtórzeń
+    - dowolna liczba
+    - ifninite - nieskończoność */
+    animation-iteration-count: infinite;
+
+    position: absolute;
+}
+
+@keyframes animacja1 {
+    0% {
+        left:0;
+        width: 10%;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        width: 50%;
+        left: 50%;
+        background-color: lime;
+
+    }
+    75% {
+        background-color: blue;
+        transform: rotate(180deg);
+    }
+    100% {
+        width: 10%;
+        left: 90%;
+        background-color: aqua;  
+        tranfrom: rotate(180deg)
+    }
+    
+}
+
+.box:hover {
+    animation-play-state:paused;
+}

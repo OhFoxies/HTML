@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+.cloud-img {
+    width: 90vw;
+    height: 10vw;
+    animation-name: falling-cloud;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+@keyframes falling-cloud {
+    0% {
+        opacity: 1;
+        float: left;
+        margin-left: 0%;
+        width: 50vw;
+        height: 10vw;
+    }
+    10% {
+        width: 50vw;
+        height: 10vw;
+        opacity: 1;
+        float: left;
+        margin: auto;
+        margin-left: 5%;
+    }
+    20% {
+        width: 50vw;
+        height: 10vw;
+        opacity: 1;
+        float: left;
+        margin: auto;
+        margin-left: 10%;
+    }
+    30% {
+        width: 50vw;
+        height: 10vw;
+        opacity: 1;
+        float: left;
+        margin-left: 15%;
+    }
+    40% {
+        width: 50vw;
+        height: 10vw;
+        opacity: 1;
+        float: left;
+        margin-left: 20%;
+    }
+    50% {
+        width: 50vw;
+        height: 10vw;
+        opacity: 1;
+        float: left;
+        margin-left: 25%;
+    }
+    60% {
+        width: 60vw;
+        height: 10vw;
+        opacity: 1;
+        float: none;
+        margin: auto;
+    }
+    70% {
+        width: 70vw;
+        height: 10vw;
+        opacity: 1;
+        float: none;
+        margin: auto;
+    }
+    80% {
+        width: 80vw;
+        height: 10vw;
+        opacity: 1;
+        float: none;
+        margin: auto;
+    }
+    90% {
+        width: 90vw;
+        height: 10vw;
+        opacity: 1;
+        float: none;
+        margin: auto;
+    }
+    100% {
+        width: 90vw;
+        height: 10vw;
+        opacity: 1;
+        float: none;
+        margin: auto;
+    }
+
+
+}
+.box1 {
+    opacity: 0;
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    margin: 1vw;
+    display: inline-block;
+    animation-name: falling;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+
+@keyframes falling {
+    10% {
+        opacity: 1;
+        margin-top: 5%;
+        transform: rotate(36deg);
+    }
+    20% {
+        opacity: 1;
+        margin-top: 10%;
+        transform: rotate(72deg);
+    }
+    30% {
+        opacity: 1;
+        margin-top: 15%;
+        transform: rotate(108deg);
+    }
+    40% {
+        opacity: 1;
+        margin-top: 20%;
+        transform: rotate(144deg);
+    }
+    50% {
+        opacity: 1;
+        margin-top: 25%;
+        transform: rotate(180deg);
+    }   
+    60% {
+        opacity: 1;
+        margin-top: 30%;
+        transform: rotate(216deg);
+    }   
+    70% {
+        opacity: 0;
+        margin-top: 30%;
+        transform: rotate(252deg);
+    } 
+    80% {
+        opacity: 0;
+        margin-top: 30%;
+        transform: rotate(288deg);
+    }
+    90% {
+        opacity: 0;
+        margin-top: 30%;
+        transform: rotate(324deg);
+    }  
+    100% {
+        opacity: 0;
+        margin-top: 30%;
+        transform: rotate(360deg);
+    }   
+}
