@@ -1,0 +1,169 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url('images/universe.jpg');
+	background-size:cover;
+}
+
+#sun{
+	width: 20vh;
+	height: 20vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border-radius:50%;
+}
+
+#earth{
+	width: 60vh;
+	height: 10vh;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	/* background-color: green; */
+	animation: earth_rotate 8s infinite linear;
+}
+#earth2{
+	width:10vh;
+	height:10vh;
+	float:left;
+	border-radius:50%;
+	animation: earth_stop 4s infinite linear;
+}
+
+#line{
+	width: 50vh;
+	height: 50vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border:1px solid white;
+	border-radius:50%;
+}
+
+.moon {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	z-index: 98;
+	width: 80vh;
+	height: 15vh;
+	top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	position: absolute;
+	/* background-color: red; */
+	animation: earth_rotate 8s infinite linear;
+}
+.moonline {
+	width: 20vh;
+	height: 20vh;
+	border: 1px solid white;
+	border-radius: 50%;
+	float: left;
+	top:0;
+    bottom: 0;
+    left: 0vh;
+    right: 50vh;
+    margin: auto;
+	position: absolute;
+	animation: none;
+}
+.moonimg {
+	z-index: 100;
+	width: 5vh;
+	height: 5vh;
+	border-radius: 50%;
+	float: left;
+	animation: moon_wzium 8s infinite linear;
+}
+
+.moonwzium {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	/* background-color: yellow; */
+	width: 25vh;
+	height: 10vh;
+	top:0;
+    bottom: 0;
+    left: 0vh;
+    right: 50vh;
+    margin: auto;
+	position: absolute;
+	animation: moon_wzium 1.5s infinite linear
+}
+
+.marsline {
+	width: 90vh;
+	height: 90vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border:1px solid white;
+	border-radius:50%;
+}
+
+
+.mars {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	/* background-color: yellow; */
+	width: 98vh;
+	height: 10vh;
+	top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	position: absolute;
+	animation: earth_rotate 16s infinite linear
+}
+.marsimg {
+	border-radius: 50%;
+	width: 8vh;
+	height: 8vh;
+
+}
+
+@keyframes earth_rotate {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+@keyframes earth_stop {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(-360deg);
+	}
+}
+
+
+@keyframes moon_wzium {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+	
+}
