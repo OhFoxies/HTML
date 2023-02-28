@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <title>Chryste panie javascript</title>
+    <script src='script.js'></script>
+</head>
+<body>
+    <nav class="desktop">
+        <div class="icon" id='icon' onclick="openmenu()">
+            przycisk
+        </div>
+        <div id="menu">
+            <div class='gallery' onclick='opengal(1)'>Galeria 1</div>
+            <div class='gallery' onclick='opengal(2)'>Galeria 2</div>
+        </div> 
+    </nav>
+    <div id="photos1">
+        <img class='photo' src='kon1.jpg' onclick="openphoto(this.src)">
+        <img class='photo' src='kon2.jpg' onclick="openphoto(this.src)">
+        <img class='photo' src='kon3.jpg' onclick="openphoto(this.src)">
+        <img class='photo' src='kon4.jpg' onclick="openphoto(this.src)">
+    </div>
+    <div id="photos2">
+        <img class='photo' src='car1.jpg' onclick="openphoto(this.src)">
+        <img class='photo' src='car2.jpg' onclick="openphoto(this.src)">
+        <img class='photo' src='car3.jpg' onclick="openphoto(this.src)">
+        <img class='photo' src='car4.jpg' onclick="openphoto(this.src)">
+    </div>
+    <div id='screen'>
+        <img id='bigphoto' src='' alt=''>
+    </div>
+</body>
+</html>

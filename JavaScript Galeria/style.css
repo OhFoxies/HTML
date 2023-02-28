@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Gajraj One', cursive;
+}
+.desktop {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.icon {
+    color:white;
+    display: flex;
+    width: 16vw;
+    height: 10vw;
+    background-color: orange;
+    font-size:2vw;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.icon:hover {
+    background-color: tomato;
+    cursor:pointer;
+}
+#menu {
+    display: none;
+    flex-flow: wrap column;
+    width: 16vw;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    background-color: orange;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:1px solid white;
+    color:white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    transition: 0.4s;
+}
+.gallery:hover {
+    background-color: tomato;
+    cursor:pointer;
+}
+nav{
+    width:16vw
+}
+#photos1, #photos2 {
+    position: absolute;
+    top: 0px;
+    right:0vw;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: center;
+    width: 84vw;
+    height: 10vw;
+    background-color: black;
+    display: none;
+}
+.photo {
+    height: 10vw;
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+    transition: 0.6s;
+}
+.photo:hover {
+    cursor:pointer;
+    border-radius: 3px;
+    transform:scale(110%);
+}
+#bigphoto{
+    border-radius: 12px;
+    object-fit: cover;
+    position: absolute;
+    left: 19vw;
+    top: 12vw;
+    max-height:70vh ;
+    width: 60vw;
+}
