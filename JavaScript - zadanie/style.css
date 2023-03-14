@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Gajraj One', cursive;
+}
+.desktop {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+
+/* Line with main button and photos list */
+.line1{
+    display: flex;
+}
+
+.icon {
+    color:white;
+    display: flex;
+    width: 16vw;
+    height: 10vw;
+    background-color: orange;
+    font-size:2vw;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.icon:hover {
+    background-color: tomato;
+    cursor:pointer;
+}
+
+
+/* Gallery buttons */
+#menu {
+    display: none;
+    flex-flow: wrap column;
+    width: 16vw;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    background-color: orange;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:1px solid white;
+    color:white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    transition: 0.4s;
+}
+.gallery:hover {
+    background-color: tomato;
+    cursor:pointer;
+}
+
+
+/* Photos gallery menu after chosing gallery */
+#photos1, #photos2 {
+    flex-grow: 100;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    background-color: black;
+    display: none;
+}
+
+
+/* Each photo in list */
+.photo {
+    height: 10vw;
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+    transition: 0.6s;
+}
+.photo:hover {
+    cursor:pointer;
+    border-radius: 3px;
+    transform:scale(110%);
+}
+
+
+/* Big photo display on click */
+#bigphoto{
+    border-radius: 12px;
+    object-fit: cover;
+    position: absolute;
+    left: 19vw;
+    top: 12vw;
+    max-height:70vh ;
+    width: 60vw;
+}
+
+
+@media (max-width: 600px){
+    #bigphoto {
+        max-height: 15vh;
+        position: absolute;
+        top:35vw;
+        left:35vw;
+    }
+    #desktoptekst {
+        display: none;
+    }
+    .hamburger {
+        display: flex !important;
+    }
+    .icon{
+        width:30vw;
+        height:30vw;
+    }
+    .gallery{
+        border-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+        font-size:5vw;
+        width:50%;
+        height:30vw;
+    }
+    #menu {
+        flex-flow: nowrap row;
+        height: 30vw;
+        position: absolute;
+        width: 70vw;
+        top:0px;
+        left: 30vw;
+    }
+    .line1{
+        display: block;
+    }
+    #photos1, #photos2 {
+        flex-flow: wrap column;
+        flex-grow: 0;
+        height: fit-content;
+        background-color: none;
+        justify-content:none;
+        align-items: flex-start;
+        width: 30vw;
+    }
+    .photo {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .hambline {
+        width: 15vw !important;
+        height: 1vh !important;
+        background-color: white;
+    }
+}
+
+@media (max-width: 300px) {
+    #menu {
+        font-size: 1vh;
+    }
+}
+
+/* Hamburger menu for mobile */
+.hamburger {
+    z-index: 555;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+    gap: 3vw;
+    height: fit-content;
+}
+
+.hambline {
+    width: 20vw;
+    height: 2.586999vh;
+    background-color: white;
+}

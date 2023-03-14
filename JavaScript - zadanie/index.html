@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <title>Chryste panie javascript</title>
+    <script src='scripts/script.js'></script>
+</head>
+<body>
+    <nav class="desktop">
+        <div class="line1">
+            <div class="icon" id='icon' onclick="openmenu()">
+                <div class="hamburger">
+                    <div class="hambline" id="line1"></div>
+                    <div class="hambline" id="line2"></div>
+                    <div class="hambline" id="line3"></div>
+                </div>
+                <span id='desktoptekst'>hamburger</span>
+            </div>
+            <div id="photos1">
+                <img class='photo' src='gallery1/dfijf.jpg' alt=''onclick="openphoto(this.src)">
+                <img class='photo' src='gallery1/fduihgdiuhg.jpg' alt='' onclick="openphoto(this.src)">
+                <img class='photo' src='gallery1/sdlgikjhisdioug.jpg' alt='' onclick="openphoto(this.src)">
+                <img class='photo' src='gallery1/sdflkfhdsiulggfrikhi.jpg' alt='' onclick="openphoto(this.src)">
+            </div>
+            <div id="photos2">
+                <img class='photo' src='gallery2/fjkghdfg.jpg' alt='' onclick="openphoto(this.src)">
+                <img class='photo' src='gallery2/dfghd.jpg' alt='' onclick="openphoto(this.src)">
+                <img class='photo' src='gallery2/dsgdg.jpg' alt='' onclick="openphoto(this.src)">
+                <img class='photo' src='gallery2/sfffsa.jpg' alt='' onclick="openphoto(this.src)">
+            </div>
+        </div>
+        <div id="menu">
+            <div class='gallery' onclick='opengal(1)'>Galeria 1</div>
+            <div class='gallery' onclick='opengal(2)'>Galeria 2</div>
+        </div> 
+    </nav>
+    <div id='screen'>
+        <img id='bigphoto' src='' alt=''>
+    </div>
+</body>
+</html>
