@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+
+}
+#menu {
+    background-color: blue;
+}
+
+.category {
+    display: none;
+    background-color: red;
+}

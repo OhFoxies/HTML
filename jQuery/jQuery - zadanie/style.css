@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Gajraj One', cursive;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+
+/* Line with main button and photos list */
+.Icon-Photos{
+    display: flex;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color:white;
+    background-color: orange;
+    font-size:2vw;
+
+    width: 20vw;
+    height: 10vw;
+}
+
+.show {
+    display: flex;
+}
+
+.show2 {
+    display: flex;
+}
+/* Gallery buttons */
+#menu {
+    display: none;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: tomato;
+    border-top: 0.1vw solid white;
+    color:white;
+    font-size:1.5vw;
+
+    width: 20vw;
+    height: 8vw;
+}
+
+.uwu {
+    display: none;
+    flex-grow: 100;
+    height: 10vw
+}
+
+/* Photos gallery menu after chosing gallery */
+.choice {
+    display: flex;
+    flex-grow: 100;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+
+}
+
+
+/* Each photo in list */
+.photo {
+    display: inline-block;
+    object-fit: cover;
+
+    height: 10vw;
+    width: 100%;
+}
+
+
+/* Big photo display on click */
+#bigphoto{
+    display: none;
+    position: absolute;
+    object-fit: cover;
+
+    left: 20vw;
+    top: 10.1vw;
+
+    height: 24.1vw;
+    width: 60vw;
+}
+
+.containerd {
+    display: none;
+    position:absolute;
+    top: 34vw;
+    left: 40vw;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3vw;
+    width: 6vw;
+    height: 6vw;
+    background-color: yellow;
+    margin: 2vw;
+}

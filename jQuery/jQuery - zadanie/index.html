@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <title>Chryste panie javascript</title>
+    <script src='https://code.jquery.com/jquery-3.6.4.min.js'></script>
+    <script src='scripts/script.js'></script>
+</head>
+<body>
+    <nav>
+        <div class="Icon-Photos">
+            <div id='icon'>
+                <span id='desktoptekst'>hamburger</span>
+            </div>
+            <div class="uwu" id="photos1">
+                <div class="choice">
+                    <img class='photo' id='gal1_1' src='images/gallery1/jak-zrobic-dobre-zdjecie-ustawienia-aparatu.jpg' alt='' onclick="openphoto(this.src, 1)">
+                    <img class='photo' id='gal1_2' src='images/gallery1/pobrane (1).jpg' alt='' onclick="openphoto(this.src, 2)">
+                    <img class='photo' id='gal1_3' src='images/gallery1/pobrane.jpg' alt='' onclick="openphoto(this.src, 3)">
+                    <img class='photo' id='gal1_4' src='images/gallery1/pomysly-na-zdjecia-obraz-wyrozniajacy.jpg' alt='' onclick="openphoto(this.src, 4)">
+                </div>
+            </div>
+            <div class="uwu"  id="photos2">
+                <div class="choice">
+                    <img class='photo' id='gal2_1' src='images/gallery2/pexels-pixabay-209065.jpg' alt='' onclick="openphoto(this.src, 1)">
+                    <img class='photo' id='gal2_2' src='images/gallery2/pexels-pixabay-235894.jpg' alt='' onclick="openphoto(this.src, 2)">
+                    <img class='photo' id='gal2_3' src='images/gallery2/pexels-pixabay-48785.jpg' alt='' onclick="openphoto(this.src, 3)">
+                    <img class='photo' id='gal2_4' src='images/gallery2/pexels-robomorfo-multimedia-793235.jpg' alt='' onclick="openphoto(this.src, 4)">
+                </div>
+            </div>
+            <div class="uwu" id="photos3">
+                <div class="choice">
+                    <img class='photo' id='gal3_1' src='images/gallery3/Fotolia_235277554_Subscription_Monthly_M.jpg' alt='' onclick="openphoto(this.src, 1)">
+                    <img class='photo' id='gal3_2' src='images/gallery3/Na-co-choruje-Swiety-Mikolaj_article.jpg' alt='' onclick="openphoto(this.src, 2)">
+                    <img class='photo' id='gal3_3' src='images/gallery3/pobrane (2).jpg' alt='' onclick="openphoto(this.src, 3)">
+                    <img class='photo' id='gal3_4' src='images/gallery3/z26559934AMP,Swiety-Mikolaj-odwiedza-grzeczne-dzieci-6-grudnia-.jpg' alt='' onclick="openphoto(this.src, 4)">
+                </div>
+            </div>
+            <div class='containerd' id='buttonss'> 
+                <div class='buttons'>
+                    <div id='button1' class='button'><span> < </span></div>
+                    <div id='button2' class='button'><span> > </span></div>
+                </div>
+            </div>
+        </div>
+            <div id="menu">
+                <div id="gallery1" class='gallery'>Galeria 1</div>
+                <div id="gallery2" class='gallery'>Galeria 2</div>
+                <div id="gallery3" class='gallery'>Galeria 3</div>
+            </div> 
+
+    </nav>
+    <img id='bigphoto' src='' alt=''>
+</body>
+</html>

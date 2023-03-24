@@ -1,0 +1,51 @@
+
+#miniatures {
+    margin: auto;
+    width: fit-content;
+
+}
+
+.photo {
+    margin: 2px;
+    width: 15vw;
+    height: 30vh;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.photo:hover {
+    width: 16vw;
+}
+#screen {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap; 
+    align-items: center;    
+    justify-content: center;
+    height: fit-content;
+}
+
+.photos {
+    display: none;
+    flex-flow: column wrap; 
+    align-items: center; 
+    background-color: aqua;
+    width: fit-content;
+}
+
+.big {
+    display: none;
+    padding: 2vh;
+    width: 35vw;
+    height: 45vh;
+    object-fit: cover;
+}
+
+#close {
+    align-self: flex-start;
+    margin: 2vh;
+    background-color: red;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 50%;
+}
+
