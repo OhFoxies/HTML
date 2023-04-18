@@ -1,0 +1,72 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: black; */
+}
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#screen {
+    border: 1px solid white;
+    background-color: black;
+    width: 100%;
+    padding: 8px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.buttons {
+    padding: 5px;
+    display: flex;
+    width: 100%
+}
+
+.numbers {
+    display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+    gap: 5px;
+    row-gap: 5px;
+    justify-content: space-around;
+}
+
+
+.button {
+    background-color: #5f5f5f;
+    border: none;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    position: relative; 
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 70%;
+}
+.button:hover {
+    background: #3b3b3b;
+}
+
+.button:active {
+    transform: scale(95%);
+    font-weight: bold;
+}

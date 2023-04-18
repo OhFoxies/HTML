@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <title>Kalkulator js</title>
+    <script src="scripts/calculator.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="calculator">
+        <form>
+            <input type="text" id="screen" disabled='true'>
+            <div class="buttons">
+                <div class="numbers">
+                    <input class='button' type="button" value="C" onclick="clearlast()">
+                    <input class='button' type="button" value="CE" onclick="clearall()">
+                    <input class='button' type="button" value="=" onclick="calc()">
+                    <input class='button' type="button" value="+" onclick="plus()">
+                    <input class='button-number button' type="button" value="7">
+                    <input class='button-number button' type="button" value="8">
+                    <input class='button-number button' type="button" value="9">
+                    <input class='button' type="button" value="x">
+                    <input class='button-number button' type="button" value="4">
+                    <input class='button-number button' type="button" value="5">
+                    <input class='button-number button' type="button" value="6">
+                    <input class='button' type="button" value="-">
+                    <input class='button-number button' type="button" value="1">
+                    <input class='button-number button' type="button" value="2">
+                    <input class='button-number button' type="button" value="3">
+                    <input class='button' type="button" value="/">
+                    <input class='button-number button' type="button" value="0">
+                    <input class='button' type="button" value="," onclick="comma()">
+                    <input class='button' type="button" value="xx">
+                    <input class='button' type="button" value="xy">
+
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
