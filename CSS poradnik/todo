@@ -1,0 +1,49 @@
+selektor - id, klasa, nazwa znacznki
+własność seleketora - styl css
+wartość właśności - wzium 
+
+
+aling-items
+background
+background-color
+background-position
+background-size
+background-attachmend
+background-reapet
+background lineargradient radialgradinet
+bottom
+border
+border-radius
+border-collapse
+color
+display
+font-size
+font-family
+font-wieght
+font-style
+flex-direction
+flex-wrap
+height 
+justify-content
+list-style-type
+left
+margin
+opacity
+padding
+right
+text-align
+align-height
+width
+text-decoration
+z-index
+float 
+vertical-align
+clear
+letter-spacing
+word-spacing
+text-shadow
+box-shadow
+treść:
+- Za co odpowiada styl
+- W jakich znacznikach ma zastosowanie
+- jakie ma wartosci

@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-color: #38383d;
+}
+
+
+nav {
+    margin-bottom: 40vh;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+    height: auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #0c0c0d;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #2a2a2e;
+    height: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+#burger {
+    display: flex;
+    width: 40px;
+    height: 24px;
+    transform: rotate(0deg);
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+#burger span {
+    position: absolute;
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: white;
+    opacity: 1;
+    transition: .25s ease-in-out;
+    border-radius: 4px;
+}
+.burger span:nth-child(1) {
+    top: 0;
+}
+
+.burger span:nth-child(2) {
+    top: 10px;
+}
+.burger span:nth-child(3) {
+    top: 20px;
+}
+
+
+.burger.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 10px;
+    left: 0;
+}
+
+.burger.open span:nth-child(2) {
+    width: 0 !important;
+    opacity: 0 !important;
+}
+
+.burger.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 10px;
+}
+
+.show-menu {
+    display: flex !important;
+}
+#nav-main {
+    position: relative;
+    width: 100%;
+}
+.nav-search {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #2a2a2e;
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    display: none;
+    transition: 1s;
+}
+form.search-form {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid aqua;
+
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#searchbox {
+    position: relative;
+    background-color: #2a2a2e;
+    /* padding-right: 50%; */
+    width: 90%;
+    border: none;
+}
+form.search-form input[type=text] {
+    background-color: #2a2a2e;
+    /* padding: 10px; */
+    font-size: 17px;
+  }
+  
+  /* Style the submit button */
+  form.search-form button {
+    background: #2a2a2e;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
