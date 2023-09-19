@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+form {
+    padding: 2em;
+    border: red 0.2em solid;
+    border-radius: 15px;
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 2em;
+}
+input {
+    width: 30%;
+    height: 3.5em;
+    border-radius: 15px;
+    border: green 0.2em solid;
+}
+
+button {
+    width: 40%;
+    height: 4em;
+    border-radius: 15px;
+    border: green 0.1em solid;
+    font-size: 2em;
+}
+
+textarea {
+    width: 30%;
+    height: 4em;
+    border-radius: 15px;
+    border: green 0.1em solid;
+    font-size: 2em;
+}

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+:root {
+    --background-color: rgb(54, 54, 54)
+}
+body {
+    background-color: var(--background-color);
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 2vh;
+    border: lime;
+    padding: 5em;
+}
+
+#number {
+    padding: 0.5em;
+    background-color: none;
+    border-radius: 5px;
+    width: 15em;
+    border: none;
+}
+
+#color {
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 15em;
+
+}
+
+#submit {
+    padding: 0.5em;
+    border-radius: 5px;  
+    width: 15em;
+    border: none;
+}
+.output {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}

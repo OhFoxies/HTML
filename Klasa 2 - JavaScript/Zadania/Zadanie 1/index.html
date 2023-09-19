@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Formularz - Wojciech Rejner </title>
+</head>
+<body>
+    <div class="wrapper">
+        <form onsubmit="return do_stuff()">
+            <h1>Formularz benc</h1>
+            <input type="text" id="number" placeholder="Podaj liczbę"/>
+            <select id="color">
+                <option value="lime">lime</option>
+                <option value="aqua">aqua</option>
+                <option value="orange">orange</option>
+            </select>
+            <input type="button" id='submit' value="Wziumuj" onclick="do_stuff()"/>
+            <div class="output" id="output">
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

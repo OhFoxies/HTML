@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Formularz</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form onsubmit="return do_stuff()">
+            <input type="text" id="input1">
+            <button type="button" onclick="do_stuff()" value="Generuj"> GENERUJ </button>
+            <textarea id="sum"></textarea>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="wrapper">
+    <form action="">
+        a= <input type="text" id='a'/> <br>
+        b= <input type="text" id="b"/> <br>
+        <select id="select_operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select>
+        <br>
+        <input type="button" value="licz" onclick="do_stuff2()">
+        <br>
+        <div id="w"></div>
+    </form>
+    </div>  
+</body>
+</html>
