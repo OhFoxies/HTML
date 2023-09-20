@@ -10,7 +10,7 @@
 body {
     background-color: var(--background-color);
 }
-.wrapper {
+.wrapper-board {
     display: flex;
     justify-content: center;
 }

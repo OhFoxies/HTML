@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Kółka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Mulish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game">
+        <div class="wrapper-title">
+            <h1>Kołka i nie krzyżyki</h1>
+            <h2 id="round-display">Runda: rozpocznij gre</h2>
+        </div>
+        <div class="wrapper-board">
+            <div class="square">
+                <div class="pole" id="1"></div>
+                <div class="pole" id="2"></div>
+                <div class="pole" id="3"></div>
+
+                <div class="pole" id="4"></div>
+                <div class="pole" id="5"></div>
+                <div class="pole" id="6"></div>
+
+                <div class="pole" id="7"></div>
+                <div class="pole" id="8"></div>
+                <div class="pole" id="9"></div>
+            </div>
+            <input type="button" value='WYCZYŚĆ' id='clear' onclick="clear_x_o()" >
+            <input type="button" value='START' id='start' onclick="game()" >
+        </div>
+    </div>
+</body>
+</html>

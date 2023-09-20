@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+.box {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    height: 50vh;
+    background-color: red;
+}

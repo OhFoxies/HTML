@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' href='style.css ' />
+    <link rel='stylesheet' type='text/css' href='style.css '/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -12,80 +12,178 @@
     <title>Dokumentacja CSS</title>
 </head>
 <body>
-    <nav>
-        <div class="header-nav" id="top-nav">
-            <h1>CSS docs</h1>
-        </div>
-        <div id="nav-main">
-            <div class="nav-items">
-                <div class="nav-title">
-                    <h1>CSS docs</h1>
-                </div>
-                <div class="burger" id='burger' onclick="open_menu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+<nav>
+    <div class="header-nav" id="top-nav">
+        <h1>CSS docs</h1>
+    </div>
+    <div id="nav-main">
+        <div class="nav-items">
+            <div class="nav-title">
+                <h1>Poradnik CSS</h1>
             </div>
-            <div class="nav-search" id="search">
-                <form class="search-form">
-                    <input type="search" id="searchbox" placeholder="Wyszukaj po nazwie..." name="search"> 
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-                <div class="nav-list-of-elements">
-                    <!-- <p><a href="#wzium1">Wzium 1</a></p> -->
-                    <!-- <p>Wzium 2</p>
-                    <p>Wzium 3</p>
-                    <p>Wzium 4</p>
-                    <p>Wzium 5</p>
-                    <p>Wzium 6</p>
-                    <p>Wzium 7</p> -->
+            <div id='burger' onclick="open_menu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="search">
+            <form onsubmit="return search()">
+                <div class="search-wrapper">
+                    <label for="searchbox"></label>
+                    <input type="text" id="searchbox" placeholder="Wyszukaj po nazwie...">
+                    <button id="confirm" type="button"><i class="fa fa-search"></i></button>
+                </div>
+            </form>
+            <p class='show-all' onclick="show_all()" id="show-all">Pokaż wszystkie elementy</p>
+            <div class="nav-list-of-elements">
+                <div id="not-found">
+                    <p></p>
+                </div>
+                <a href="#" class="link-to-element">Border <span>Opis elementu elementu elementu elementu elementu elementu elementu Lorem </span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu, myślę, żę auto ma duże koła</span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu</span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu</span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu</span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu</span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu</span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu</span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu</span></a>
+                <a href="#" class="link-to-element">Border <span>Opis elementu</span></a>
 
-                </div>
+
             </div>
         </div>
-    </nav>
-    <a name="wzium1">uwu</a>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <p>Wzium 4</p>
-    <p>Wzium 5</p>
-    <p>Wzium 6</p>
-    <p>Wzium 7</p>
-    <script src="scripts/scroll.js"></script>
+    </div>
+</nav>
+<div id="go-up" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <p>DO GÓRY</p>
+</div>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<p>d</p>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/search.js"></script>
 </body>
 </html>
